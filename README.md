@@ -5,13 +5,12 @@ basic commands for mongodb
 db.collection.find()
 
 2. remove mongoDB All data
-db.collection.remove( { } )
+#db.collection.remove( { } )
  
 3. MongoDB Help
 
 To get a list of commands, type db.help() in MongoDB client. This will give you a list of commands as shown in the following screenshot.
 db.help
-
  
 4. Show All Databases
 
@@ -22,17 +21,14 @@ db.version
 5. Create new database
 
 To create a new database execute the following command.
-use DATABASE_NAME
- 
+use DATABASE_NAME 
 
 6. Know your current selected database
 
 To know your current working/selected database execute the following command
 db
-
  
 7. Drop database
-
 To drop the database execute following command, this will drop the selected database
 db.dropDatabase()
 
